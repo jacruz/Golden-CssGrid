@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="scripts/script.js"></script>
+    <title>golden</title>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <div class="mobile-menu">
+                <a href="#" onclick="openMenu();"><i class="fa fa-bars" id="ico-menu"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Descuentos</a></li>
+                <li><a href="#">Colecciones</a></li>
+            </ul>
+            <div class="logo">
+                <h1>golden</h1>
+            </div>
+            <div class="mobile-tools">
+                <a href="#"><i class="fa fa-heart-o"></i></a>
+                <a href="#"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+            <div class="tools">
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-user-o"></i></a>
+                <a href="#"><i class="fa fa-heart-o"></i></a>
+                <a href="#"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+            <div class="mobile-menu-open" id="mobile-menu-open">
+                <ul>
+                    <li><a href="#">Descuentos</a></li>
+                    <li><a href="#">Colecciones</a></li>
+                    <li><a href="#"><i class="fa fa-user-o"></i> Iniciar sesión</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <h1 class="b-title">Nueva colección</h1>
+            <button class="b-cta">Descubrir</button>
+        </div>
+    </header>
+    <main>
+        <section class="s-descuentos">
+            <h2 class="s-title">Descuentos</h2>
+            <div class="s-slide-dots">
+                <a href="#"><i class="fa fa-circle"></i></a>
+                <a href="#"><i class="fa fa-circle-o"></i></a>
+                <a href="#"><i class="fa fa-circle-o"></i></a>
+                <a href="#"><i class="fa fa-circle-o"></i></a>
+            </div>
+            <div class="s-slider">
+                <span class="slider-nav"> <a href=""><i class="fa fa-arrow-left"></i></a> </span>
+                <article class="product">
+                    <img class="product-img" src="assets/images/anillos-2.png">
+                    <div class="product-data">
+                        <h4 class="product-title">Anillos MK Ultra 1</h4>
+                        <p class="product-price">$500.000<span class="price-before">$800.000</span></p>
+                        <p class="product-tools">
+                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                            <a href="#"><i class="fa fa-shopping-bag"></i></a>
+                        </p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product-img" src="assets/images/anillos-1.png">
+                    <div class="product-data">
+                        <h4 class="product-title">Anillos Forever 2</h4>
+                        <p class="product-price">$1.000.000<span class="price-before">$1.600.000</span></p>
+                        <p class="product-tools">
+                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                            <a href="#"><i class="fa fa-shopping-bag"></i></a>
+                        </p>
+                    </div>
+                </article>
+                <article class="product">
+                    <img class="product-img" src="assets/images/collar-1.png">
+                    <div class="product-data">
+                        <h4 class="product-title">Collar FF</h4>
+                        <p class="product-price">$300.000<span class="price-before">$490.000</span></p>
+                        <p class="product-tools">
+                            <a href="#"><i class="fa fa-heart-o"></i></a>
+                            <a href="#"><i class="fa fa-shopping-bag"></i></a>
+                        </p>
+                    </div>
+                </article>
+                <span class="slider-nav"> <a href=""><i class="fa fa-arrow-right"></i></a> </span>
+            </div>
+        </section>
+        <section class="s-collections">
+            <h2 class="s-title">Colecciones</h2>
+            <div class="collections">
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-1.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Dijes</h4>
+                    </div>
+                </article>
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-2.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Incrustaciones</h4>
+                    </div>
+                </article>
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-3.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Perlas</h4>
+                    </div>
+                </article>
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-4.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Collares</h4>
+                    </div>
+                </article>
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-5.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Anillos</h4>
+                    </div>
+                </article>
+                <article class="collection">
+                    <img class="collection-img" src="assets/images/collection-6.jpg">
+                    <div class="collection-img-hover" onclick=""></div>
+                    <div class="collection-desc">
+                        <h4>Mix</h4>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="s-footer">
+            <div class="f-container">
+                <div class="f-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul class="f-links-menu">
+                        <li><a href="#">Productos</a></li>
+                        <span>Explora nuestro catálogo</span>
+                        <li><a href="#">Tarjeta regalo</a></li>
+                        <span>Un detalle especial</span>
+                        <li><a href="#">Inspiración</a></li>
+                        <span>Influencias y joyas</span>
+                        <li><a href="#">Colecciones</a></li>
+                        <span>Encuentra por categorías</span>
+                    </ul>
+                </div>
+                <div class="f-instagram">
+                    <h4>Instagram <i class="fa fa-instagram"></i> </h4>
+                    <img src="assets/images/insta-1.jpg">
+                    <img src="assets/images/insta-2.jpg">
+                    <img src="assets/images/insta-3.jpg">
+                </div>
+                <div class="f-contact">
+                    <a href="#"><i class="fa fa-address-card-o"></i></a>
+                    <a href="#"><i class="fa fa-paper-plane-o"></i></a>
+                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                    <a href="#">jacruzjacruz@gmail.com</a>
+                </div>
+                <div class="f-links-2">
+                    <ul class="f-links-2-menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Soporte</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s-powered-by">
+            <p>Powered by <a href="../../personalCV/index.html">Jonnathan Cruz</a></p>
+            <div class="txt-small">
+                <p>Inspired by <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/c111a3168070271.64b3269f2f88e.png">rimmart</a></p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
